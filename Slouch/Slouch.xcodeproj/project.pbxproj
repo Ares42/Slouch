@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D571967A1ECC133400D17DE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57196791ECC133400D17DE7 /* AppDelegate.swift */; };
+		D571967C1ECC133400D17DE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D571967B1ECC133400D17DE7 /* ViewController.swift */; };
+		D571967F1ECC133400D17DE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D571967D1ECC133400D17DE7 /* Main.storyboard */; };
+		D57196821ECC133400D17DE7 /* Slouch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D57196801ECC133400D17DE7 /* Slouch.xcdatamodeld */; };
+		D57196841ECC133400D17DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57196831ECC133400D17DE7 /* Assets.xcassets */; };
+		D57196871ECC133400D17DE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D57196851ECC133400D17DE7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D57196761ECC133400D17DE7 /* Slouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57196791ECC133400D17DE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D571967B1ECC133400D17DE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D571967E1ECC133400D17DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D57196811ECC133400D17DE7 /* Slouch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Slouch.xcdatamodel; sourceTree = "<group>"; };
+		D57196831ECC133400D17DE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D57196861ECC133400D17DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D57196881ECC133400D17DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D57196731ECC133400D17DE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D571966D1ECC133300D17DE7 = {
+			isa = PBXGroup;
+			children = (
+				D57196781ECC133400D17DE7 /* Slouch */,
+				D57196771ECC133400D17DE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D57196771ECC133400D17DE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D57196761ECC133400D17DE7 /* Slouch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D57196781ECC133400D17DE7 /* Slouch */ = {
+			isa = PBXGroup;
+			children = (
+				D57196791ECC133400D17DE7 /* AppDelegate.swift */,
+				D571967B1ECC133400D17DE7 /* ViewController.swift */,
+				D571967D1ECC133400D17DE7 /* Main.storyboard */,
+				D57196831ECC133400D17DE7 /* Assets.xcassets */,
+				D57196851ECC133400D17DE7 /* LaunchScreen.storyboard */,
+				D57196881ECC133400D17DE7 /* Info.plist */,
+				D57196801ECC133400D17DE7 /* Slouch.xcdatamodeld */,
+			);
+			path = Slouch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D57196751ECC133400D17DE7 /* Slouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D571968B1ECC133400D17DE7 /* Build configuration list for PBXNativeTarget "Slouch" */;
+			buildPhases = (
+				D57196721ECC133400D17DE7 /* Sources */,
+				D57196731ECC133400D17DE7 /* Frameworks */,
+				D57196741ECC133400D17DE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Slouch;
+			productName = Slouch;
+			productReference = D57196761ECC133400D17DE7 /* Slouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D571966E1ECC133300D17DE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Slouch;
+				TargetAttributes = {
+					D57196751ECC133400D17DE7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6TK8Q4KD6G;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D57196711ECC133300D17DE7 /* Build configuration list for PBXProject "Slouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D571966D1ECC133300D17DE7;
+			productRefGroup = D57196771ECC133400D17DE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D57196751ECC133400D17DE7 /* Slouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D57196741ECC133400D17DE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57196871ECC133400D17DE7 /* LaunchScreen.storyboard in Resources */,
+				D57196841ECC133400D17DE7 /* Assets.xcassets in Resources */,
+				D571967F1ECC133400D17DE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D57196721ECC133400D17DE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57196821ECC133400D17DE7 /* Slouch.xcdatamodeld in Sources */,
+				D571967C1ECC133400D17DE7 /* ViewController.swift in Sources */,
+				D571967A1ECC133400D17DE7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D571967D1ECC133400D17DE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D571967E1ECC133400D17DE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D57196851ECC133400D17DE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D57196861ECC133400D17DE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D57196891ECC133400D17DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D571968A1ECC133400D17DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D571968C1ECC133400D17DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6TK8Q4KD6G;
+				INFOPLIST_FILE = Slouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Slouch.Slouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D571968D1ECC133400D17DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6TK8Q4KD6G;
+				INFOPLIST_FILE = Slouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Slouch.Slouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D57196711ECC133300D17DE7 /* Build configuration list for PBXProject "Slouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57196891ECC133400D17DE7 /* Debug */,
+				D571968A1ECC133400D17DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D571968B1ECC133400D17DE7 /* Build configuration list for PBXNativeTarget "Slouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D571968C1ECC133400D17DE7 /* Debug */,
+				D571968D1ECC133400D17DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D57196801ECC133400D17DE7 /* Slouch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D57196811ECC133400D17DE7 /* Slouch.xcdatamodel */,
+			);
+			currentVersion = D57196811ECC133400D17DE7 /* Slouch.xcdatamodel */;
+			path = Slouch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D571966E1ECC133300D17DE7 /* Project object */;
+}
