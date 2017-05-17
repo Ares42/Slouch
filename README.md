@@ -15,12 +15,12 @@ We want to take the modern concussion test and bring it to your phone.
 <br>
 ## Have some pictures.
 <br>
-![alt text](./mockups/1.png)
+![First Mockup Image](./mockups/1.png)
 <br>
-![alt text](./images/2.png)
+![Second Mockup Image](./images/2.png)
 <br>
-![alt text](./images/2.png)
+![Third Mockup Image](./images/3.png)
 <br>
-![alt text](./images/2.png)
+![Fourth Mockup Image](./images/4.png)
 <br>
-![alt text](./images/2.png)
+![Fifth Mockup Image](./images/5.png)
