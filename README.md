@@ -14,13 +14,8 @@ We want to take the modern concussion test and bring it to your phone.
 <br>
 <br>
 ## Have some pictures.
-<br>
-![First Mockup Image](./mockups/1.png)
-<br>
-![Second Mockup Image](./images/2.png)
-<br>
-![Third Mockup Image](./images/3.png)
-<br>
-![Fourth Mockup Image](./images/4.png)
-<br>
-![Fifth Mockup Image](./images/5.png)
+![First Mockup Image][./mockups/1.png]
+![Second Mockup Image][./images/2.png]
+![Third Mockup Image][./images/3.png]
+![Fourth Mockup Image][./images/4.png]
+![Fifth Mockup Image][./images/5.png]
